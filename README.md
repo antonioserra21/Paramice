@@ -5,6 +5,6 @@ The brain evolved to afford animals with the ability to move. It is thus not sur
 
 Paramice system is controlled by a Raspberry pi with a slave arduino.
 In this repostry there are two scripts: 
-- mRFID.ino is the sketch that will instruct the arduino. It is based on Annaane's multi RFID project https://github.com/Annaane/MultiRfid.
+- mRFID.ino is the sketch that will instruct the arduino. It is based on Annaane's multi RFID project https://github.com/Annaane/MultiRfid. I have slightly modified the script in order to make the arduino output the informations in the following format: Reader N:  XX XX XX XX
 - main.py is run by the raspberry and will control the whole system, opening and closing gates, initiating the tasks and storing data on the performances of mice.
 
